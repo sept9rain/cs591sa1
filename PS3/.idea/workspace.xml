@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a132a0c-15f3-4db8-a135-2cab210dc7fc" name="默认的" comment="" />
+    <list default="true" id="8a132a0c-15f3-4db8-a135-2cab210dc7fc" name="默认的" comment="">
+      <change beforePath="$PROJECT_DIR$/routes/PS3Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/PS3Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/PS3P.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/PS3P.pug" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -12,17 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/PS3Router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,8 +41,8 @@
         <option value="$PROJECT_DIR$/routes/PS3.pug" />
         <option value="$PROJECT_DIR$/routes/error.pug" />
         <option value="$PROJECT_DIR$/views/PS3.pug" />
-        <option value="$PROJECT_DIR$/routes/PS3Router.js" />
         <option value="$PROJECT_DIR$/views/PS3P.pug" />
+        <option value="$PROJECT_DIR$/routes/PS3Router.js" />
       </list>
     </option>
   </component>
@@ -77,7 +70,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,9 +91,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
@@ -143,11 +137,12 @@
       <workItem from="1559547957019" duration="6551000" />
       <workItem from="1559634599134" duration="5128000" />
       <workItem from="1559640284613" duration="2386000" />
+      <workItem from="1559694616375" duration="684000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14065000" />
+    <option name="totallyTimeSpent" value="14749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -160,9 +155,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -240,14 +234,14 @@
     <entry file="file://$PROJECT_DIR$/views/PS3P.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="59" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/PS3Router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        <state relative-caret-position="95">
+          <caret line="5" column="61" lean-forward="true" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
         </state>
       </provider>
     </entry>
