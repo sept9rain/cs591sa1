@@ -7,6 +7,6 @@ import {weatherdata} from './Weatherdata-MOCK';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'PS5: The city weather';
+  title = 'PS6: The city weather';
   mockData = weatherdata;
 }
