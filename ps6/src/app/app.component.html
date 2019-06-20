@@ -10,14 +10,14 @@
 </div>
 <div data-ng-app="weaAPP" data-ng-controller="weaCtrl" style="text-align:center">
   <form>
-    City Id: <input type="text" data-ng-model="cityId">
-    <button> Inquire!</button>
+    City Id: <input [(ngModel)]='CityID' placeholder="City ID">
+    <button (click) = 'getWeather()'> Inquire!</button>
   </form>
+  <ul>
+    <li *ngFor="let res of weathers">
+      {{res.city}} is {{res.weather}} today.
+    </li>
+  </ul>
 </div>
-<script>
-  var weaApp = angular.module('weaApp',[]);
-  weaApp.controller('weaCtrl',function($scope){
-    $scope.cityId = "101010100";
-  });
-</script>
+
 <router-outlet></router-outlet>
