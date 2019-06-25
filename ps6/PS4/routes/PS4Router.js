@@ -9,11 +9,11 @@ router.route('/')
         doReq()
             .then(function (body) {
                 const value = JSON.parse(body);
-                res.render('PS4G', { city: value['cityEn'] , wea: value['data'][0]['wea'] });
+                res.send(value);
             })
 
             .catch(function(err) {
-                console.log(`ERROR! ${err}`);
+                res.send(err)
             });
 
     });
